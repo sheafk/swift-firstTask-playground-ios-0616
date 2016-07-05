@@ -16,13 +16,16 @@
 */
 // write your code here
 
-
+var myBankAccount = 123
+//A bank account should not be a constant. It is a number that will change.
 
 
 /*: question2
 ### 2. You went to your local pet store and purchased yourself a puppy. You decided to name the puppy Bella. Once you named her, that name will stick with her forever. Create a variable that stores the name of your new puppy.
 */
 // write your code here
+
+var myPuppy = "Bella"
 
 
 
@@ -32,7 +35,7 @@
 */
 // write your code here
 
-
+print(myPuppy)
 
 
 /*: question4
@@ -40,7 +43,7 @@
 */
 // write your code here
 
-
+print("I just got a new puppy named \(myPuppy)")
 
 
 /*: question5
@@ -48,7 +51,7 @@
 */
 // write your code here
 
-
+print("I have $\(myBankAccount) in my bank account.")
 
 
 /*: question6
@@ -56,7 +59,9 @@
 */
 // write your code here
 
+myBankAccount += 100
 
+print("I now have $\(myBankAccount).")
 
 
 /*: question7
@@ -64,7 +69,7 @@
 */
 // write your code here
 
-
+myPuppy = "Hazel"
 
 
 //: [Solution](solution)
